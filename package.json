@@ -1,0 +1,15 @@
+{
+  "name": "movies_lovers",
+  "version": "1.0.0",
+  "description": "dataMovies",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todas",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
