@@ -1,0 +1,38 @@
+[
+  {
+    "numberQuestion": 1,
+    "question": "¿En qué año se estrenó Deadpool",
+     "answers": {
+      "A": "2015",
+      "B": "2016",
+      "C": "2012"
+    }
+  },
+  {
+    "numberQuestion": 2,
+    "question": "¿En Guardians of the Galaxy, quién interpreta a Star-Lord",
+     "answers": {
+      "A": "Heath Ledger",
+      "B": "Artur Fleck",
+      "C": "Joaquín Phoenix"
+    }
+  },
+  {
+    "numberQuestion": 3,
+    "question": "¿Cuál de los siguientes posters corresponde a la película Thor estrenada en 2011?",
+     "answers": {
+      "A": "2015",
+      "B": "2016",
+      "C": "2012"
+    }
+  },
+  {
+    "numberQuestion": 4,
+    "question": "¿Quién es el distribuidor de las películas de Avengers?",
+     "answers": {
+      "A": "21st Century Fox",
+      "B": "Universal",
+      "C": "Walt Disney Picture"
+    }
+  }
+ ]
