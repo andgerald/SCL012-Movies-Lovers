@@ -84,3 +84,4 @@ document.getElementById('sortCharacters').addEventListener('change', () => {
 });
 
 */
+

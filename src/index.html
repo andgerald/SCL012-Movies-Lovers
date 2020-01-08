@@ -1,14 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Data Lovers</title>
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body class="bg-color">
+    <nav class="navbar">
+        <a class="navbar-brand " href="#"> <img class="logo" src="img/logo_ML.png"></a>
+        <form class="form-inline" class="move">
+            <p class=" mr-4 text-light">ENCUENTRA TU PELICULA FAVORITA</p>
+          <input class="buscar form-control mr-sm-3 mb-3" type="search" placeholder="Busca tu pelicula" roboto-label="Search">
+          <input type="image" src="img/search.png" class="icon mb-3 ">
+        </form>
+    </nav>
+    <div class="initation">
+        <main>
+            <div class="contenedorimg">
+             <a  class="ban" > <img  class="banner"  src="img/vs.png"></a>
+            </div>
+            <div class="textphoto">
+                <h1 class="tall">¿Cuál es tu liga favorita?</h1 c>
+                <h2 class="tall" >Averigua cuanto sabes de las peliculas</h2>
+            </div>
+            <div class="textphototwo ">
+             <h3>para los amantes de los superhéroes</h3>
+            </div>
+            <a href="#" class="logodc" id="questiondc" > <img  class="logodc"  src="img/DClogo.png"></a>
+            <section class="containerdc" id="moviedc"></section>
+            <a href="#" class="logomarvel" id="questionmarvel"> <img  class="logomarvel"  src="img/logomarvel.png"></a>
+            <section class="containermarvel" id="moviemarvel">  </section>
+            <div class="start">
+                <h1>Escoge tu trivia</h1>
+            </div>
+            <div>
+                <input  class="triviadc" type=image src="img/DClogo.png"> 
+                <input  class="triviamarvel" type=image src="img/logomarvel.png"> 
+            </div>
+        </main> 
+    </div> 
+    <footer class="footer">
+      <div class="btna">
+        <p class="pag">Páginas recomendadas</p>
+        <ul>
+          <li><a href="https://www.cinemascomics.com/tag/noticias-de-cine/"  class="text" target="_blank" id="btnJ"> Cine mas comics </a>
+          </li>
+          <li><a href="https://www.vix.com/es/btg/comics/4762/marvel-vs-dc-cual-es-mejor-aqui-resolvemos-la-eterna-disputa" class="text" target="_blank"   id="btnC"> DC v/s Marvel</a> </li>
+        </ul>
+      </div>  
+    </footer>
     <script type = "module" src ="main.js"></script>
-    <script type = "module" src ="data.js"></script>    
-  </body>
+    <script type = "module" src ="data.js"></script> 
+          
+
+
+</body>
 </html>

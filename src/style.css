@@ -1,0 +1,133 @@
+.bg-color {
+    background-color: #021222; 
+}
+.navbar{
+    background:#033261;
+    height:150px;
+}
+.logo{
+    margin-left: 120px;
+    margin-top: -35px;
+}
+.move{
+	border: 0px;
+	width: 240px;
+	position: relative;
+	background: transparent;
+	outline: none;
+	bottom: 4px;
+    padding: 2px;
+    color: blanchedalmond;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right:130px;
+    border: 0px;
+	position: relative;
+    top:1px;
+}
+.banner{
+    width: 1220px;
+    height: 500px;
+    margin-left:66px;
+    margin-top: -35px;
+}
+.textphoto{
+    margin-top: -40px;
+}
+.tall{
+    font-family:Asul;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.textphototwo{
+    color: #68EBD9;
+    font-family: Asul;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -5px;
+} 
+.logodc{
+    width: 77px;
+    height: 77px;
+    margin-left:66px;
+    margin-bottom: -120px;
+}
+.containerdc{
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    left: 142px;
+    top: 870px;
+    background: #181C20;
+}
+.logomarvel{
+    width: 117px;
+    height: 54px;
+    margin-left:-40px;
+    margin-bottom: -800px;
+}
+.containermarvel{
+    position: absolute;
+    width: 1100px;
+    height: 250px;
+    left: 142px;
+    top: 1200px;
+    background: #181C20;
+}
+.start{
+   margin-top: 730px;
+   position: absolute;
+   left: 502px;
+   top: 780px;
+   font-family: Asul;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 23px;
+   line-height: 44px;
+   text-align: center;
+   color: #FFFFFF;
+}
+.triviadc{
+    width: 118px;
+    height: 119px;
+    margin-bottom: -900px;
+    margin-left: 350px;
+}
+.triviamarvel{
+    width: 230px;
+    height: 90px;
+    margin-bottom: -890px;
+    margin-left: 340px;
+}
+.footer{
+ position: absolute;
+ width: 1345px;
+ height:90px;
+ left: 0px;
+ top: 1800px;
+ background: #033261;
+}
+.btna ul{
+ list-style-type: none;
+ display: flex;
+ justify-content: space-evenly;
+ text-decoration: none;     
+}
+.pag{
+ font-family:Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ color: #7C91A5;
+ margin-left: 150px;
+}
+@font-face{font-family:roboto; 
+    src:url(font/Roboto-Regular.ttf);}
+
+@font-face{font-family:asul; 
+    src:url(font/Asul-Bold.ttf);}
