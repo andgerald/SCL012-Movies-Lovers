@@ -21,16 +21,6 @@ export default [
   },
   {
     numberQuestion: 3,
-    question: '¿Cuál de los siguientes portadas representa a Thor, estrenada en 2011?',
-     answers: {
-      A: 'A: 2015',
-      B: 'B: 2016',
-      C: 'C: 2012',
-    },
-    correctAnswer: 'A',
-  },
-  {
-    numberQuestion: 4,
     question: '¿Quién es el distribuidor de las películas Avengers?',
      answers: {
       A: 'A: 21st Century Fox',

@@ -21,16 +21,6 @@ export default [
   },
   {
     numberQuestion: 3,
-    question: '¿Cuál de las siguientes portadas representa a Wonder Woman, estrenada en 2017?',
-     answers: {
-      A: 'A: 2015',
-      B: 'B: 2016',
-      C: 'C: 2012',
-    },
-    correctAnswer: 'A',
-  },
-  {
-    numberQuestion: 4,
     question: '¿Quién es el distribuidor de películas de DC?',
      answers: {
       A: 'A: DC Films',

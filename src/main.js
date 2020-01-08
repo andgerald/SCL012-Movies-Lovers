@@ -157,28 +157,6 @@ document.getElementById("buttonSearch").addEventListener("click", function (){
 }); 
 
 
-//*********************************          
-// FUNCIÓN DE BÚSQUEDA DE PELÍCULA QUE CONTIENEN UN STRING QUE INGRESA USUARIO
-//********************************* 
-document.getElementById("buttonSearching").addEventListener("click", function (){
-  document.getElementById('results').innerHTML = "";
-  let stringMovie = document.getElementById("stringSearching").value;
-  fetch('http://www.omdbapi.com/?s='+ stringMovie + '&apikey=4ceb79a2&Type=movie')
-  .then(response => {
-    return response.json()
-  })
-  .then(data => {
-    for (let i = 0; i < data.Search.length; i += 1) {
-      if(data.Search[i].Poster!=='N/A'){
-        document.getElementById('results').innerHTML += `<div class ="card"><ul class='lista'><li>${data.Search[i].Title}</li><li><img src = ${data.Search[i].Poster}></li></ul><div class='plot'>${data.Search[i].Type}${data.Search[i].imdbID}<hr><h5><br>Año de estreno: ${data.Search[i].Year}</div></div>`;
-      }
-    }
-  })
-  .catch((error)=> {
-    console.log("error",error)
-  })
-  return false;
-}); 
 //************************************************************************************** */
 //ZONA DE TRIVIA
 //************************************************************************************** */
@@ -199,7 +177,6 @@ document.getElementById('results').innerHTML = "";
   a[0]=document.getElementById("answer0").value;
   a[1]=document.getElementById("answer1").value;
   a[2]=document.getElementById("answer2").value;
-  a[3]=document.getElementById("answer3").value;
   for (let i = 0; i < MARVEL.length; i += 1) {
     if(a[i]===MARVEL[i].correctAnswer){
     document.getElementById('results').innerHTML += `<div class ="trivia"><ul class='lista'><li>La respuesta ${MARVEL[i].numberQuestion} es correcta</li></ul></div>`;
@@ -230,7 +207,6 @@ document.getElementById('results').innerHTML = "";
   a[0]=document.getElementById("answer0").value;
   a[1]=document.getElementById("answer1").value;
   a[2]=document.getElementById("answer2").value;
-  a[3]=document.getElementById("answer3").value;
   for (let i = 0; i < DCCOMICS.length; i += 1) {
     if(a[i]===DCCOMICS[i].correctAnswer){
     document.getElementById('results').innerHTML += `<div class ="trivia"><ul class='lista'><li>La respuesta ${DCCOMICS[i].numberQuestion} es correcta</li></ul></div>`;
